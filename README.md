@@ -6,12 +6,12 @@ Struktur File:
 
 **Game**
   * `--/ Main.cpp` -> File utama untuk menjalankan game loop dan memanggil semua modul yang tersedia.
-  * `--/ Makefile` (atau CMakeLists.txt) -> Berisi perintah untuk meng-compile seluruh modul program sekaligus.
+  * `--/ Makefile` -> Berisi perintah untuk meng-compile seluruh modul program sekaligus.
 
 **Object/**
   * `--/ Pacman.hpp` -> Berisi struktur, posisi, dan mekanisme kontrol utama karakter Pac-Man.
   * `--/ Ghost.hpp` -> Berisi fungsi, perilaku (AI), dan aturan pergerakan dari hantu-hantu musuh.
-  * `--/ Dot.hpp` -> Berisi fungsi dan titik-titik makanan (pellet) yang tersebar di labirin.
+  * `--/ Dot.hpp` -> Berisi fungsi dan titik-titik makanan yang tersebar di labirin.
 
 **Mechanics/**
   * `--/ Collision.hpp` -> Mekanisme deteksi tabrakan (antara Pac-Man dengan tembok labirin, titik makanan, dan hantu).
